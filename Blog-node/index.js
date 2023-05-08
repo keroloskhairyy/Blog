@@ -39,12 +39,12 @@ app.use(express.json());
 // app.use(express.static(__dirname+'public'))
 
 app.use('/user',userroute)
-app.get('/index',function(req,res)
-{
-    let pathFile = path.join(__dirname,'public/index.html')
-    res.sendFile(pathFile)
-    // res.sendFile('public/index.html',{root:__dirname})1
-})
+// app.get('/home',function(req,res)
+// {
+//     let pathFile = path.join(__dirname,'public/home.html')
+//     res.sendFile(pathFile)
+//     // res.sendFile('public/index.html',{root:__dirname})1
+// })
 
 app.listen(3000,function()
 {

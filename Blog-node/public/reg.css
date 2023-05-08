@@ -7,7 +7,9 @@ body {
   background: #575757;
 
 }
-
+h2,a{
+  color: #000;
+}
 .content {
   color: #3B2A0A;
   margin: 0 auto;
@@ -167,4 +169,13 @@ body {
 .form .button:hover{
   outline: 0;
   background-color: #85621E;
+}
+
+
+
+
+/* dsadfasdasd */
+
+a{
+  font-size: 50px;
 }
