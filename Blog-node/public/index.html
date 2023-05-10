@@ -53,29 +53,29 @@
   <div id="footer">
   </div>
 </div>
-<script src="./js/reg.js"></script>
+<!-- <script src="./js/reg.js"></script> -->
 <script>
-   function submit() {
+//    function submit() {
 
-let username = document.getElementById('username').value;
-let email = document.getElementById('email').value;
-let password = document.getElementById('password').value;
+// let username = document.getElementById('username').value;
+// let email = document.getElementById('email').value;
+// let password = document.getElementById('password').value;
 
-fetch(`http://localhost:3000/user/users/register`,{
-        method: 'post',
-        body: JSON.stringify({username,email,password}),
-        headers: {
-            "Content-Type": "application/json",
-            // 'Content-Type': 'application/x-www-form-urlencoded',
-        },
+// fetch(`http://localhost:3000/user/users/register`,{
+//         method: 'post',
+//         body: JSON.stringify({username,email,password}),
+//         headers: {
+//             "Content-Type": "application/json",
+//             // 'Content-Type': 'application/x-www-form-urlencoded',
+//         },
 
-    }).then(res => {
-        res.json().then(data => {
-            console.log(data);
+//     }).then(res => {
+//         res.json().then(data => {
+//             console.log(data);
 
-        })
-    })
-}
+//         })
+//     })
+// }
 </script>
 </body>
 </html>
